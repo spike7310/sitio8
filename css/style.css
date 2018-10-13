@@ -1,6 +1,7 @@
 header{
 	width: 100%;
 	height: 200px;
+	background-color: #ffffff;
 	
 }
 
@@ -21,9 +22,7 @@ img.faraday{
 	font-style: italic;
 
 }
-div .item{
 
-}
 
 div.contenedor-dos{
 	display: flex;
@@ -37,8 +36,13 @@ div.secundario{
 	width: 100px;
 
 }
+.listas{
+	display: inline-block;
+	width: 295px;
+}
 
 .men{
+
 
 }
 .women{
@@ -47,15 +51,21 @@ div.secundario{
 
 section.foto-banner{
 	width: 707px;
+	display: inline-block;
 	margin: auto;
+	position: relative;
 }
 
 img.foto-morocha{
 	width: 707px;
 	height: 400px;
-	max-width: 1000px;
-	max-height: 5000px;
 	
+	
+}
+
+p.texto-otono{
+	position: absolute;
+	color: white;
 }
 
 section.fotos-abajo{
@@ -63,14 +73,45 @@ section.fotos-abajo{
 	height: 200px;
 	margin: auto;
 }
+section.contenedor-izq{
+	position: relative;
+}
+
 
 img.foto-hipster{
 	width: 350px;
 	height: 200px;
+	position: relative;
 }
 
-img.foto-negro{
+div.contenedor-hipster{
 	width: 350px;
 	height: 200px;
+	display: inline-block;
+	position: relative;
 }
+p.texto-clasico{
+	color: yellow;
+	position: absolute;
+	font-size: 28px;
+	
+}
+
+
+img.foto-negro{
+	width: 349px;
+	height: 200px;
+	
+}
+div.contenedor-negro{
+	width: 349px;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+}
+
+p.texto.popular{
+	position: absolute;
+	color: white;
+	
 }
